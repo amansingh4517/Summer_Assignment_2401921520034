@@ -1,3 +1,5 @@
+package DataStructures.Tree;
+
 public class BST<T extends Comparable<T>> {
     TreeNode<T> root;
 

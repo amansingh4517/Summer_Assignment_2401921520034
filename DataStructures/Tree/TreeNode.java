@@ -1,7 +1,8 @@
+package DataStructures.Tree;
 public class TreeNode<T> {
-     T val;
-     TreeNode<T> left;
-     TreeNode<T> right;
+     public T val;
+     public TreeNode<T> left;
+     public TreeNode<T> right;
 
      //constuctor chaining (avoid duplicate like [this.val =val;] used in both with 1 , 3 parameter constructor if not used constructor chaining)
      TreeNode(){
