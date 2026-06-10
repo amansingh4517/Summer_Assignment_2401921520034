@@ -25,7 +25,6 @@ public class TwoSum {
             if(map.containsKey(req)) {
                 System.out.println( map.get(req) +" , "+ i);
                 break;
-
             }
             else map.put(arr[i],i);
         }
